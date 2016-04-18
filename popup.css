@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: "Gill Sans", fantasy;
+    min-width: 500px;
+
+    min-height: 150px;
+}
+
+img {
+    width: 100px;
+    margin: 1em;
+}
+
+img:hover {
+    box-shadow: 0 0 10px 5px rgba(68, 92, 116, 0.3);
+}
+
+h1 {
+    margin-top: 0;
+    top: 0;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    color: rgb(68, 92, 116);
+    padding: 1em 0;
+}
+
+#container {
+    margin-top: 6em;
+}
