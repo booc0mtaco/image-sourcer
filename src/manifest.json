@@ -3,7 +3,14 @@
 
     "name": "Image Sourcer",
     "description": "Quickly view all the images on the current page",
-    "version": "0.0.1",
+    "short_name": "IMGSourcer",
+    "homepage_url": "https://github.com/booc0mtaco/image-sourcer/",
+    "icons": {
+        "16": "icon.png",
+        "48": "icon@2x.png",
+        "128": "icon@2x.png"
+    },
+    "version": "0.0.2",
 
     "browser_action": {
         "default_icon": "icon@2x.png",

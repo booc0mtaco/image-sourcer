@@ -11,4 +11,6 @@ Designed for Chrome, with other browser versions planned.
 
 See see [CHANGELOG.md](CHANGELOG.md) for more information.
 
+# About
 
+[An Untropy Softworks Production](http://www.untropy.net/)
