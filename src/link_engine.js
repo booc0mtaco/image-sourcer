@@ -6,6 +6,6 @@ var performImage = function() {
     if (t.length) {
         return t.join('');
     } else {
-        return '<h1>No Images Present</h1>';
+        return '<h1>No IMG Tags Present</h1>';
     }
 };
