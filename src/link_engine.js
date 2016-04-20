@@ -6,7 +6,7 @@ var performImage = function() {
 
     // Image tags are the easiest to do. Loop thru the set, and pull up the images out
     Array.prototype.slice.call(document.getElementsByTagName('img')).forEach(function(imgTag) {
-        t.push(prepareString(imgTag));
+        t.push(prepareString(imgTag.src));
     });
 
     // now inspect elements that are applied to background elements
