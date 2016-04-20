@@ -25,5 +25,5 @@ var performImage = function() {
         t.push(prepareString(url));
     });
 
-    return t.length ? t.join('') : '<h1>No IMG Tags Present</h1>';
+    return t.length ? t.join('') : '<h1>No Images Present</h1>';
 };
