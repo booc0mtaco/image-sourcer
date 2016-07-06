@@ -1,6 +1,14 @@
 var performImage = function() {
+    // simple has filter check on strings
+    function _uniq(arr) {
+	var hasBeenSeen = {};
+	return arr.filter(function(item) {
+	    return hasBeenSeen.hasOwnProperty(item) ? false : (hasBeenSeen[item] = true);
+	});
+    }
+
     // Try and find all image-looking resources on a page, and return a set
-    return Array.prototype.slice.call(document.querySelectorAll('body *')).filter(function(element) {
+    return _uniq(Array.prototype.slice.call(document.querySelectorAll('body *')).filter(function(element) {
         // check for cases where no image is defined
         return window.getComputedStyle(element).backgroundImage !== 'none';
     }).filter(function(element) {
@@ -12,7 +20,7 @@ var performImage = function() {
     }).concat(Array.prototype.slice.call(document.getElementsByTagName('img')).map(function(imgTag) {
         // and merge in source values from raw image tags
         return imgTag.src;
-    })).map(function(withUrl) {
+    }))).map(function(withUrl) {
         // and format all the results into link/image sets
         return '<a href="' + withUrl + '"><img title="'+ withUrl +'" src="' + withUrl + '"></a>';
     });
