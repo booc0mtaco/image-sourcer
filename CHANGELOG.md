@@ -1,4 +1,4 @@
-### 0.0.1
+# CHANGELOG
 
-Initial commit with extraction of bookmarklet.
+Please see <https://github.com/booc0mtaco/image-sourcer/releases> for more information.
 
