@@ -1,0 +1,26 @@
+{
+  "name": "image-sourcer",
+  "version": "0.1.5",
+  "description": "Chrome extension to show images being used on a page.",
+  "main": "src/content.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/booc0mtaco/image-sourcer.git"
+  },
+  "keywords": [
+    "extension",
+    "chrome"
+  ],
+  "author": "Andrew Holloway <booc0mtaco@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/booc0mtaco/image-sourcer/issues"
+  },
+  "homepage": "https://github.com/booc0mtaco/image-sourcer#readme",
+  "dependencies": {
+    "image-url-parser": "^0.1.1"
+  }
+}

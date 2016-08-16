@@ -20,8 +20,5 @@ var performImage = function() {
     }).concat(Array.prototype.slice.call(document.getElementsByTagName('img')).map(function(imgTag) {
         // and merge in source values from raw image tags
         return imgTag.src;
-    }))).map(function(withUrl) {
-        // and format all the results into link/image sets
-        return '<a href="' + withUrl + '"><img title="'+ withUrl +'" src="' + withUrl + '"></a>';
-    });
+    })));
 };
