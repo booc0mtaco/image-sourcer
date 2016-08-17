@@ -4,5 +4,5 @@ Thumbs.db
 /logs
 *.db
 *.zip
-
+src/image-url-parser.js
 npm-debug.log

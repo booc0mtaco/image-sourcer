@@ -6,7 +6,7 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse){
     if (request.action === 'parseImage') {
         // this is where we'll specifically handle getting the image URLs, etc.
         // if the array contains rows, then send them back, or send back an empty header
-        var content = performImage().map(function(withUrl) {
+        var content = getImageUrlsFromDocument().map(function(withUrl) {
             // and format all the results into link/image sets
             return '<a href="' + withUrl + '"><img title="'+ withUrl +'" src="' + withUrl + '"></a>';
         });

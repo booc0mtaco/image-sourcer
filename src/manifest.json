@@ -30,7 +30,7 @@
         },
         {
             "matches": ["*://*/*"],
-            "js": ["link_engine.js"]
+            "js": ["image-url-parser.js"]
         }
     ]
 }
