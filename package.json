@@ -1,6 +1,6 @@
 {
   "name": "image-sourcer",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "Chrome extension to show images being used on a page.",
   "main": "src/content.js",
   "scripts": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/booc0mtaco/image-sourcer#readme",
   "dependencies": {
-    "image-url-parser": "^0.1.1"
+    "image-url-parser": "^0.2.0"
   },
   "devDependencies": {}
 }
