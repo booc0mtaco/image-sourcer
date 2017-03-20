@@ -5,6 +5,7 @@ pull up a list of the images used on a page at a given
 time. Useful for comparing assets without having to
 dive into the browser console.
 
+Available for **Free** in the [Chrome Web Store](https://chrome.google.com/webstore/detail/image-sourcer/ckeclbmdiojpejikfehaephcadpikgme?hl=en-US)
 
 # Build
 
